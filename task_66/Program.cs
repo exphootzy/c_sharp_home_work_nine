@@ -7,15 +7,15 @@
 
 int Start(string message)
 {
-  System.Console.Write(message);
-  int result = Convert.ToInt32(Console.ReadLine());
-  return result;
+    System.Console.Write(message);
+    int result = Convert.ToInt32(Console.ReadLine());
+    return result;
 }
 
 int SummNum(int numOne, int numTwo)
 {
-  if (numOne == numTwo) return numOne;
-  else return SummNum(numOne + 1, numTwo) + numOne;
+    if (numOne == numTwo) return numOne;
+    else return SummNum(numOne + 1, numTwo) + numOne;
 }
 
 Console.Clear();
